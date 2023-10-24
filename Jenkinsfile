@@ -12,7 +12,7 @@ pipeline{
             steps {
                 script {
                     def dependencies_script = load 'pipeline.groovy'
-                    dependencies_script.Build()
+                    dependencies_script.build()
                 }
             }
         }
