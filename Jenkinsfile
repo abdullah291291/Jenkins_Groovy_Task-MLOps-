@@ -29,7 +29,8 @@ pipeline{
             steps {
                 script{
                     def deploy_script = load 'pipeline.groovy'
-                    deploy_script.deploy("PROD")
+                    def currentBranch = currentBuild.sourceBranch
+                    deploy_script.deploy(currentBranch)
                 }
             }
         }
