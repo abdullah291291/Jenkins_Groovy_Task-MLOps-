@@ -19,3 +19,6 @@ def test() {
   println "Testing..."
   bat '"C:\\Users\\abdul\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" test.py'
 }
+
+
+return this
