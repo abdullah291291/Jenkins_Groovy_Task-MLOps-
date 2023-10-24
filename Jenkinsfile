@@ -11,8 +11,8 @@ pipeline{
         stage('Install Dependencies') {
             steps {
                 script {
-                    def Dependencies_script = load 'pipeline.groovy'
-                    Dependencies_script.Build()
+                    def dependencies_script = load 'pipeline.groovy'
+                    dependencies_script.Build()
                 }
             }
         }
