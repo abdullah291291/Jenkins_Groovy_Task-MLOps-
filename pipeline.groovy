@@ -17,7 +17,7 @@ def build() {
 
 def test() {
   println "Testing..."
-  bat '"C:\\Users\\abdul\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" -m test.py'
+  bat '"C:\\Users\\abdul\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" test.py'
 }
 
 
