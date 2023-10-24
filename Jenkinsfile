@@ -29,7 +29,7 @@ pipeline{
             steps {
                 script{
                     def deploy_script = load 'pipeline.groovy'
-                    deploy_script.deploy()
+                    deploy_script.deploy("PROD")
                 }
             }
         }
